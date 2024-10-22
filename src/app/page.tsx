@@ -32,9 +32,9 @@ export default function Home() {
               Olá! Sou José Francisco, tenho 17 anos e sou apaixonado por
               tecnologia e programação. Estou sempre em busca de aprender novas
               linguagens, tanto no front-end ou no back-end quanto no mobile,
-              explorando ferramentas como JavaScript e Java. Além de programar,
-              gosto de praticar musculação para manter um equilíbrio entre corpo
-              e mente. Sou fã de animes, que me inspiram com suas histórias de
+              explorando ferramentas como JavaScript. Além de programar, gosto
+              de praticar musculação para manter um equilíbrio entre corpo e
+              mente. Sou fã de animes, que me inspiram com suas histórias de
               superação. Neste portfólio, você encontrará meus projetos e
               desafios no mundo da tecnologia. Fique à vontade para explorar!
             </p>
@@ -51,8 +51,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex bg-gray-700 text-center p-4 w-full styked-fixed bottom-0 z-10">
-        <div>github: @josefrancisco</div>
+      <footer className="flex bg-gray-700 text-center p-4 w-full styked-fixed bottom-0 z-10 justify-center">
+        <div>Github: @josepogers Linkedin: José Francisco Araújo</div>
       </footer>
     </div>
   );
