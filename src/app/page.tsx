@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-const profileImage = require("../../public/foto de rg.jpg");
+import profileImage from "../../public/foto de rg.jpg";
 import Link from "next/link";
 
 export default function Home() {
@@ -51,8 +51,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-gray-700 text-center p-4 w-full styked-fixed bottom-0 z-10">
-        <p className="text-white">footer</p>
+      <footer className="flex bg-gray-700 text-center p-4 w-full styked-fixed bottom-0 z-10">
+        <div>github: @josefrancisco</div>
       </footer>
     </div>
   );
